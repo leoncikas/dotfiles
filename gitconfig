@@ -47,5 +47,10 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = v.leo@protonmail.com
-	name = Vytautas Leoncikas
+	email = leo.create@pm.me
+	name = vytautas leoncikas
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
