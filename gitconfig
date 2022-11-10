@@ -48,7 +48,7 @@
   mergeoptions = --no-edit
 [user]
 	email = leo.create@pm.me
-	name = vytautas leoncikas
+	name = Vytautas Leoncikas
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
